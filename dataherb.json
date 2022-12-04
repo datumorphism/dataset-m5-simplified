@@ -1,0 +1,98 @@
+{
+    "source": "git",
+    "name": "m5-simplified",
+    "id": "m5-simplified-dataset",
+    "description": "We simplify the M5 dataset for tutorial purposes",
+    "uri": "",
+    "metadata_uri": "https://raw.githubusercontent.com/datumorphism/m5-simplified/main/dataherb.json",
+    "datapackage": {
+        "profile": "tabular-data-package",
+        "resources": [
+            {
+                "path": "m5_store_sales.csv",
+                "profile": "tabular-data-resource",
+                "name": "distilled_store_sales",
+                "format": "csv",
+                "mediatype": "text/csv",
+                "encoding": "utf-8",
+                "schema": {
+                    "fields": [
+                        {
+                            "name": "date",
+                            "type": "date",
+                            "format": "default"
+                        },
+                        {
+                            "name": "CA",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "TX",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "WI",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('CA', 'CA_1')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('CA', 'CA_2')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('CA', 'CA_3')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('CA', 'CA_4')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('TX', 'TX_1')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('TX', 'TX_2')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('TX', 'TX_3')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('WI', 'WI_1')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('WI', 'WI_2')",
+                            "type": "integer",
+                            "format": "default"
+                        },
+                        {
+                            "name": "('WI', 'WI_3')",
+                            "type": "integer",
+                            "format": "default"
+                        }
+                    ],
+                    "missingValues": [
+                        ""
+                    ]
+                }
+            }
+        ]
+    }
+}
